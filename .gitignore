@@ -1,0 +1,7 @@
+data/chipseq
+data/background
+data/genomes
+data/hits
+data/motifs_thresholds
+data/motifs/autosome
+wd/*.jar

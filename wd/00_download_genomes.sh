@@ -1,6 +1,6 @@
 # The script for download and unpacking of interesting genomes from UCSC
 
-for genome in dm6 #danRer7 danRer10 galGal4 hg19 hg38 dm3 dm6 ce10
+for genome danRer7 danRer10 galGal4 hg19 hg38 dm3 dm6 ce10
 do
 	
 	mkdir -p ../data/genomes/${genome,,}
