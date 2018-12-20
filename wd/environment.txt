@@ -1,0 +1,21 @@
+#conda create --name motifs-search 
+#conda activate motifs-search
+#conda install -c conda-forge ruby
+#conda install -c cyclus java-jdk
+
+# packages in environment at /home/agalicina/anaconda3/envs/tmp:
+#
+# Name                    Version                   Build  Channel
+ca-certificates           2018.11.29           ha4d7672_0    conda-forge
+gmp                       6.1.2                hfc679d8_0    conda-forge
+java-jdk                  8.45.14                       0    cyclus
+libgcc-ng                 7.2.0                hdf63c60_3    conda-forge
+libstdcxx-ng              7.2.0                hdf63c60_3    conda-forge
+ncurses                   6.1                  hfc679d8_2    conda-forge
+openssl                   1.0.2p               h470a237_1    conda-forge
+pandoc                    2.5                           0    conda-forge
+readline                  7.0                  haf1bffa_1    conda-forge
+ruby                      2.4.4                h0825b16_1    conda-forge
+tk                        8.6.9                ha92aebf_0    conda-forge
+yaml                      0.1.7                h470a237_1    conda-forge
+zlib                      1.2.11               h470a237_3    conda-forge
