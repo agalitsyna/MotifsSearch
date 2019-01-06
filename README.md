@@ -35,6 +35,10 @@ For this step we use ruby script provided by autosome.ru supporters.
 
 ```bash 01_calculate_backgrounds.sh```
 
-4. Calculate thresholds for motifs from scores:
+4. Calculate thresholds for motifs from scores, straingtforward way in bash: 
 
-```bash 02_run.sh```
+```bash 02_run.sh``` 
+
+Python script:
+
+```python 02_hit_motif.py --genome dm3 --background 0.29,0.21,0.21,0.29 --folderMotifs ../data/motifs/pfm/ --folderThresholds ../data/motifs_thresholds/dm3/autosome/pwm/``` 
