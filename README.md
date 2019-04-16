@@ -35,10 +35,18 @@ For this step we use ruby script provided by autosome.ru supporters.
 
 ```bash 01_calculate_backgrounds.sh```
 
-4. Calculate thresholds for motifs from scores, straingtforward way in bash: 
+4. Search given motifs in the downloaded genomes. Calculate thresholds for motifs from scores, straingtforward way in bash: 
 
 ```bash 02_run.sh``` 
 
 Python script:
 
 ```python 02_hit_motif.py --genome dm3 --background 0.29,0.21,0.21,0.29 --folderMotifs ../data/motifs/pfm/ --folderThresholds ../data/motifs_thresholds/dm3/autosome/pwm/``` 
+
+4. Search _de novo_ motifs with [ChIPMunk](http://autosome.ru/ChIPMunk/userguide.pdf). For that, first you need to install bedtools:
+
+```conda install -c bioconda bedtools```
+
+Bash script will run for all .bed files given in the folder data/peaks/dicty:
+
+```bash 03_motif_search.sh```
